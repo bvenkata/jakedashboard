@@ -1,0 +1,2 @@
+[2017-08-24T13:10:18,127][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][10255] overhead, spent [342ms] collecting in the last [1s]
+[2017-08-24T23:29:15,513][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][19288] overhead, spent [570ms] collecting in the last [1s]

@@ -1,0 +1,9 @@
+[2017-08-08T00:12:14,186][INFO ][o.e.c.m.MetaDataDeleteIndexService] [sOtFLMY] [test_index/7mtqNdwMRzqfL_Xgy2bqyA] deleting index
+[2017-08-08T00:13:51,943][INFO ][o.e.c.m.MetaDataCreateIndexService] [sOtFLMY] [test_index] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2017-08-08T00:13:55,124][INFO ][o.e.c.m.MetaDataMappingService] [sOtFLMY] [test_index/Qu-rzh4JSzqV90AGHvjApg] create_mapping [post]
+[2017-08-08T12:21:09,994][INFO ][o.e.c.m.MetaDataMappingService] [sOtFLMY] [.kibana/xOKFHnQXTu6v_wn6QDp26g] update_mapping [config]
+[2017-08-08T12:21:09,994][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][young][26660][47] duration [707ms], collections [1]/[1s], total [707ms]/[6.9s], memory [420mb]->[154.6mb]/[1.9gb], all_pools {[young] [265.9mb]->[527.1kb]/[266.2mb]}{[survivor] [1.2mb]->[1.2mb]/[33.2mb]}{[old] [152.9mb]->[152.9mb]/[1.6gb]}
+[2017-08-08T12:21:11,052][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][26660] overhead, spent [707ms] collecting in the last [1s]
+[2017-08-08T20:31:59,971][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][27299] overhead, spent [470ms] collecting in the last [1.4s]
+[2017-08-08T23:31:39,052][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][38069] overhead, spent [354ms] collecting in the last [1s]
+[2017-08-08T23:41:48,503][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][38674] overhead, spent [570ms] collecting in the last [1.5s]

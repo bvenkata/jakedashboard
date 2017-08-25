@@ -1,0 +1,74 @@
+[2017-08-06T04:08:59,515][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-08-06T04:09:00,817][INFO ][o.e.e.NodeEnvironment    ] [sOtFLMY] using [1] data paths, mounts [[(C:)]], net usable_space [248gb], net total_space [310.1gb], spins? [unknown], types [NTFS]
+[2017-08-06T04:09:00,817][INFO ][o.e.e.NodeEnvironment    ] [sOtFLMY] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-08-06T04:09:00,848][INFO ][o.e.n.Node               ] node name [sOtFLMY] derived from node ID [sOtFLMYbRTW_lfTXgaySOQ]; set [node.name] to override
+[2017-08-06T04:09:00,848][INFO ][o.e.n.Node               ] version[5.5.1], pid[4768], build[19c13d0/2017-07-18T20:44:24.823Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-08-06T04:09:00,848][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Balaj\Desktop\Jake\elasticsearch-5.5.1\elasticsearch-5.5.1]
+[2017-08-06T04:09:31,769][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [aggs-matrix-stats]
+[2017-08-06T04:09:31,771][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [ingest-common]
+[2017-08-06T04:09:31,772][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-expression]
+[2017-08-06T04:09:31,774][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-groovy]
+[2017-08-06T04:09:31,775][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-mustache]
+[2017-08-06T04:09:31,776][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-painless]
+[2017-08-06T04:09:31,777][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [parent-join]
+[2017-08-06T04:09:31,779][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [percolator]
+[2017-08-06T04:09:31,780][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [reindex]
+[2017-08-06T04:09:31,796][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [transport-netty3]
+[2017-08-06T04:09:31,798][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [transport-netty4]
+[2017-08-06T04:09:31,801][INFO ][o.e.p.PluginsService     ] [sOtFLMY] no plugins loaded
+[2017-08-06T04:12:12,705][INFO ][o.e.d.DiscoveryModule    ] [sOtFLMY] using discovery type [zen]
+[2017-08-06T04:12:25,441][INFO ][o.e.n.Node               ] initialized
+[2017-08-06T04:12:25,441][INFO ][o.e.n.Node               ] [sOtFLMY] starting ...
+[2017-08-06T04:12:35,418][INFO ][o.e.t.TransportService   ] [sOtFLMY] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-08-06T04:12:38,009][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][12] overhead, spent [353ms] collecting in the last [1s]
+[2017-08-06T04:12:43,924][INFO ][o.e.c.s.ClusterService   ] [sOtFLMY] new_master {sOtFLMY}{sOtFLMYbRTW_lfTXgaySOQ}{ztK_0qhmRuit4KyaJ91dUg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-08-06T04:12:46,089][INFO ][o.e.h.n.Netty4HttpServerTransport] [sOtFLMY] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-08-06T04:12:46,104][INFO ][o.e.n.Node               ] [sOtFLMY] started
+[2017-08-06T04:12:46,104][INFO ][o.e.g.GatewayService     ] [sOtFLMY] recovered [0] indices into cluster_state
+[2017-08-06T04:22:15,780][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-08-06T04:22:16,124][INFO ][o.e.n.Node               ] [sOtFLMY] stopping ...
+[2017-08-06T04:22:17,289][INFO ][o.e.n.Node               ] [sOtFLMY] stopped
+[2017-08-06T04:22:17,289][INFO ][o.e.n.Node               ] [sOtFLMY] closing ...
+[2017-08-06T04:22:17,430][INFO ][o.e.n.Node               ] [sOtFLMY] closed
+[2017-08-06T04:29:15,360][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-08-06T04:40:06,228][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-08-06T04:40:08,336][INFO ][o.e.e.NodeEnvironment    ] [sOtFLMY] using [1] data paths, mounts [[(C:)]], net usable_space [247.9gb], net total_space [310.1gb], spins? [unknown], types [NTFS]
+[2017-08-06T04:40:08,340][INFO ][o.e.e.NodeEnvironment    ] [sOtFLMY] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-08-06T04:40:08,348][INFO ][o.e.n.Node               ] node name [sOtFLMY] derived from node ID [sOtFLMYbRTW_lfTXgaySOQ]; set [node.name] to override
+[2017-08-06T04:40:08,348][INFO ][o.e.n.Node               ] version[5.5.1], pid[5092], build[19c13d0/2017-07-18T20:44:24.823Z], OS[Windows 8.1/6.3/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-08-06T04:40:08,352][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=C:\Users\Balaj\Desktop\Jake\elasticsearch-5.5.1\elasticsearch-5.5.1]
+[2017-08-06T04:40:45,534][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [aggs-matrix-stats]
+[2017-08-06T04:40:45,542][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [ingest-common]
+[2017-08-06T04:40:45,542][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-expression]
+[2017-08-06T04:40:45,542][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-groovy]
+[2017-08-06T04:40:45,546][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-mustache]
+[2017-08-06T04:40:45,546][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [lang-painless]
+[2017-08-06T04:40:45,546][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [parent-join]
+[2017-08-06T04:40:45,546][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [percolator]
+[2017-08-06T04:40:45,550][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [reindex]
+[2017-08-06T04:40:45,550][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [transport-netty3]
+[2017-08-06T04:40:45,550][INFO ][o.e.p.PluginsService     ] [sOtFLMY] loaded module [transport-netty4]
+[2017-08-06T04:40:45,554][INFO ][o.e.p.PluginsService     ] [sOtFLMY] no plugins loaded
+[2017-08-06T04:41:43,095][INFO ][o.e.d.DiscoveryModule    ] [sOtFLMY] using discovery type [zen]
+[2017-08-06T04:41:49,266][INFO ][o.e.n.Node               ] initialized
+[2017-08-06T04:41:49,267][INFO ][o.e.n.Node               ] [sOtFLMY] starting ...
+[2017-08-06T04:41:58,559][INFO ][o.e.t.TransportService   ] [sOtFLMY] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2017-08-06T04:42:02,939][INFO ][o.e.c.s.ClusterService   ] [sOtFLMY] new_master {sOtFLMY}{sOtFLMYbRTW_lfTXgaySOQ}{UirpXKhwTd-BdgB6LKg2AQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-08-06T04:42:03,375][INFO ][o.e.g.GatewayService     ] [sOtFLMY] recovered [0] indices into cluster_state
+[2017-08-06T04:42:03,988][INFO ][o.e.h.n.Netty4HttpServerTransport] [sOtFLMY] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2017-08-06T04:42:03,990][INFO ][o.e.n.Node               ] [sOtFLMY] started
+[2017-08-06T05:19:17,816][INFO ][o.e.c.m.MetaDataCreateIndexService] [sOtFLMY] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [_default_, index-pattern, server, visualization, search, timelion-sheet, config, dashboard, url]
+[2017-08-06T05:23:31,944][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][young][2475][3] duration [3.7s], collections [1]/[4.5s], total [3.7s]/[4.4s], memory [310.7mb]->[97.1mb]/[1.9gb], all_pools {[young] [266.2mb]->[2mb]/[266.2mb]}{[survivor] [33.2mb]->[29mb]/[33.2mb]}{[old] [11.2mb]->[66.6mb]/[1.6gb]}
+[2017-08-06T05:23:31,992][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][2475] overhead, spent [3.7s] collecting in the last [4.5s]
+[2017-08-06T05:45:20,265][INFO ][o.e.c.m.MetaDataCreateIndexService] [sOtFLMY] [my_index] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2017-08-06T05:45:23,911][INFO ][o.e.c.m.MetaDataMappingService] [sOtFLMY] [my_index/5ouuSwcbRHSkSR23-6Dppg] create_mapping [my_type]
+[2017-08-06T06:41:35,200][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][7134] overhead, spent [431ms] collecting in the last [1.1s]
+[2017-08-06T07:42:33,506][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][young][10771][17] duration [797ms], collections [1]/[1s], total [797ms]/[6.5s], memory [420.1mb]->[158.9mb]/[1.9gb], all_pools {[young] [266.2mb]->[5mb]/[266.2mb]}{[survivor] [127.5kb]->[106.1kb]/[33.2mb]}{[old] [153.8mb]->[153.8mb]/[1.6gb]}
+[2017-08-06T07:42:33,897][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][10771] overhead, spent [797ms] collecting in the last [1s]
+[2017-08-06T20:38:39,623][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][young][27286][44] duration [6.1s], collections [1]/[7s], total [6.1s]/[14.1s], memory [419.5mb]->[154.2mb]/[1.9gb], all_pools {[young] [265.4mb]->[28.6kb]/[266.2mb]}{[survivor] [267kb]->[317.4kb]/[33.2mb]}{[old] [153.9mb]->[153.9mb]/[1.6gb]}
+[2017-08-06T20:38:44,467][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][27286] overhead, spent [6.1s] collecting in the last [7s]
+[2017-08-06T20:48:58,358][INFO ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][27895] overhead, spent [554ms] collecting in the last [1.4s]
+[2017-08-06T22:02:03,708][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][young][32191][52] duration [5s], collections [1]/[5.8s], total [5s]/[20.4s], memory [420.1mb]->[154mb]/[1.9gb], all_pools {[young] [266mb]->[36.1kb]/[266.2mb]}{[survivor] [65.8kb]->[68.8kb]/[33.2mb]}{[old] [153.9mb]->[153.9mb]/[1.6gb]}
+[2017-08-06T22:02:04,660][WARN ][o.e.m.j.JvmGcMonitorService] [sOtFLMY] [gc][32191] overhead, spent [5s] collecting in the last [5.8s]
+[2017-08-06T22:13:51,470][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2017-08-06T22:13:52,516][INFO ][o.e.n.Node               ] [sOtFLMY] stopping ...
